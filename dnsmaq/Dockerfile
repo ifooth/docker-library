@@ -1,3 +1,3 @@
 FROM debian
 
-ENTRYPOINT [ "usr/sbin/dnsmasq" ]
+ENTRYPOINT [ "/usr/sbin/dnsmasq" ]
