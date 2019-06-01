@@ -2,7 +2,7 @@ FROM centos:7.4.1708
 
 WORKDIR /usr/app
 
-ENV VERSION=0.19.0
+ENV VERSION=0.27.0
 
 RUN set -ex;\
     curl -sL https://github.com/fatedier/frp/releases/download/v${VERSION}/frp_${VERSION}_linux_amd64.tar.gz -o /usr/app/frp.tar.gz;\
